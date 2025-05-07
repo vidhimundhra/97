@@ -1,0 +1,461 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate the Birthday Girl</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff0f5;
+            color: #4d0039;
+        }
+
+        nav {
+            background-color: #ffcce0;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #4d0039;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #ffe3ec;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4);
+        }
+
+        h1 {
+            text-align: center;
+            color: #99004d;
+        }
+
+        .intro {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 30px;
+            color: #660033;
+        }
+
+        .review {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #ffcce0;
+            padding-bottom: 20px;
+        }
+
+        .review img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .review-content {
+            flex: 1;
+        }
+
+        .review-content h3 {
+            margin: 0 0 5px;
+            font-size: 1.1em;
+        }
+
+        .stars {
+            color: #ff4081;
+            margin-bottom: 8px;
+        }
+
+        .review-content p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Vidhi</a></li>
+            <li><a href="story.html">Her Story</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="review.html">Ratings & Reviews</a></li>
+            <li><a href="hi.html">Say Hi</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Rate the Birthday Girl</h1>
+        <div class="intro">Leave your rating and share your thoughts about Vidhi – whether she's your fav person or your fav headache.</div>
+
+        <div class="review">
+            <img src="aanchal.jpeg" alt="Reviewer 1">
+            <div class="review-content">
+                <h3>Aanchal</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>1. She is a long lasting durable product (friend) who has been there with me since the last 12 years.<br>
+2. The shape, size and age of this product (friend) remains intact, as she does not look like she has aged at all - she was the same in Chinmaya and is still the same now (chota packet dhamaka).<br>
+3. The efficiency of this product (friend) is 100%, as she has been an A1 friend since I have known her.<br>
+4. I would recommend this product (friend) to my other friends as well, because this product  (Friend) always laughs at your jokes and makes you feel like you are super funny and humorous (even Alexa/Siri don't do that).</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="Amit.jpeg" alt="Reviewer 2">
+            <div class="review-content">
+                <h3>Amit Mody</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>I highly recommended Vidhiji - there’s nothing she can’t do; working her way to replace Avadhesh babu, swimming her laps to replace Phelps, traveling harder to beat Modiji’s visa trail, enjoys her chocolates, croissants and thalis and most importantly- hypes up your silly jokes. Never a dull moment!!!</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="Ankita.jpeg" alt="Reviewer 3">
+            <div class="review-content">
+                <h3>Ankita Kulkarni</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Vidhi is a powerhouse of ambition and elegance. She's confidently carving her path in her career. Her love for desserts is as sweet as her spirit. She brings energy and charm wherever she goes. Whether she's jet-setting to a new destination or indulging in a luxurious weekend, she knows how to live life to the fullest. Driven, stylish, and full of life—she’s the perfect mix of hustle and high heels</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="ankur.jpeg" alt="Reviewer 4">
+            <div class="review-content">
+                <h3>Ankur Jain</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Being friends with her is like owning a high-end espresso machine - intense, energizing, sometimes noisy, but ultimately a life upgrade. Recommended for those who can keep up—and don’t mind being called out for being 5 minutes late.<br>
+The new 2024 model involves precised pre planning which has been incorporated from the other competitor (vaibhav latte machine). Unlike other machines , this machine does not require constant repair and services for their laughter and sometimes these laughs are uncalled and unstoppable.<br> 
+Hopefully, the future models are even more unpredictable and impressive. </p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="daksh.jpeg" alt="Reviewer 5">
+            <div class="review-content">
+                <h3>Daksh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Hotter sister, funnier sister, cuter sister, wiser sister & richer sister. I’m late by few years. Missed my chance. 😞Vaibhav should thank the stars.</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="darshu.jpeg" alt="Reviewer 6">
+            <div class="review-content">
+                <h3>Darshu</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Hauli na hauli hai ho Vidhi…<br>
+
+Meeting her every summer and winter vacation became a part of the usual rhythm for me.<br>
+We had our share of childhood fights, but somehow, we always ended up laughing and moving on.<br>
+I especially enjoyed it when she passed her exams—kyunki humein party milti thi! :D<br>
+<br>
+Shaadi ke baad, well… she's changed quite a bit—thanks to Vaibhav, who's clearly doing a great job ""sudhar-o-fying"" Vidhi! :P<br>
+But jokes apart, keep your pitch low (you know what I mean) and travel vibes high & keep enjoying life.</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="gaurav.jpeg" alt="Reviewer 8">
+            <div class="review-content">
+                <h3>Gaurav</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Vidhi - Great Friend, Slightly Malfunctioning Human<br>
+<br>
+I’ve had this friend for a few years now, and overall, it’s been a solid investment. Came slightly late out of the box (typical), but once powered up with pic poses and compliments, performance improves drastically xP<br>
+<br>
+Pros:<br>
+<br>
+Great music taste and song recognising skills<br>
+<br>
+Amazing games and trip organizer — turns every plan into a full-blown adventure itinerary.<br>
+<br>
+Shares the linking for ‘melody’ ;)<br>
+<br>
+Can be summoned with food, drama updates, or spontaneous plans.<br>
+<br>
+Cons:<br>
+<br>
+The random ghosting can last several business days. Communication warranty unclear.<br>
+<br>
+Easy to tease (which, honestly, makes life more entertaining).<br>
+<br>
+Overall, would absolutely recommend. A top-tier human with minor glitches and maximum fun. Comes with laughter, chaos, and the occasional vanishing act.</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="hari.jpeg" alt="Reviewer 9">
+            <div class="review-content">
+                <h3>Hari</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>This product looks premium, behaves very local. Looks sweet and harmless on the outside but is cunning and chaalu waiting for opportunities to mock innocent south Indians' hindi and finding opportunities to shoot and post embarrassing videos on friends without consent.<br>
+If you are an employer looking for a hard working product, then kindly avoid as the product is generally busy travelling abroad 6 weeks in a month.<br>
+However, full marks for party vibes and brain processing power.<br>
+Ps - Dear product, photo keliye maaf kardena :P</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="kavya.jpeg" alt="Reviewer 10">
+            <div class="review-content">
+                <h3>Kavya Somani</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>She’s really sweet when she has to be otherwise it depends on her mood. I love her Calvin Klein pajamas and I love how she shares her clothes with me (even tho it doesn’t fit)<br> 
+<br>
+I don’t like how she rejects my kisses though.<br>
+<br>
+Inspite of all of these things, I do love her. MUAHHHHHHHH</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="Manjinder.jpeg" alt="Reviewer 11">
+            <div class="review-content">
+                <h3>Manjinder Maddan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Vidhi: Premier Friendship Asset<br>
+<br>
+Vidhi consistently demonstrates exceptional helpfulness and a lively spirit, making her a valuable friend. Her adventurous nature enriches connections. Beyond typical friendship, Vidhi elevates these bonds with insightful support.<br>
+<br>
+Overall Rating: 5 out of 5 Stars<br>
+<br>
+Recommendation: Vidhi is highly recommended for her outstanding ability to foster and enhance friendships.</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="pulkit.jpeg" alt="Reviewer 12">
+            <div class="review-content">
+                <h3>Mittuu</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>I am too under-qualified to give review about her 🙈 Honestly speaking vidhi se jealous he rehta hoo :P<br>
+Matlab bhagwaan koi toh defect deta hai sabh mein ..pata nahi iski kya he setting hai .. She is just PERFECT bas beech beech mein hari ki baat thodi zyada sunti hai tab imperfections dikhte hai warna toh bestum bestt hai ! 😛<br>
+Happy Birthdayyy!</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="payal.jpeg" alt="Reviewer 13">
+            <div class="review-content">
+                <h3>Payal Patel</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Honestly, if you don’t know Vidhi, you’re missing out. Certified legend. Always down to chill, always there when you need someone, and somehow knows exactly what to say when life’s being a mess.<br>
+<br>
+Top-tier vibes, unbeatable sense of humor, and gives the kind of advice that actually makes sense (rare, I know).<br>
+<br>
+Would totally be friends with again.</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="sumeet.jpeg" alt="Reviewer 14">
+            <div class="review-content">
+                <h3>Sumeet Heda</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Vidhi is a jovial and ambitious person. She is the life of parties and night outs.</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="swati.jpeg" alt="Reviewer 15">
+            <div class="review-content">
+                <h3>Swati</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Review: 4.8/5 Stars<br>
+(Lost 0.2 stars for being extra competitive at the board games, but we love that about you 😛)<br>
+<br>
+Name: Vidhi<br>
+Model Year: Unclear, but definitely old enough to hangout with Millennials 😜<br>
+Manufacturer: House of Mundhra’s<br>
+Warranty: Lifetime friendship (no returns, sorry)<br>
+<br>
+The Experience:<br>
+Vidhi is a complete package and always comes equipped with dry fruits, fruits, chutney sandwiches from Marz O Rin, jackets and shawls at the movies and always always smiles.<br>
+<br>
+Pros:<br>
+	•	High Tolerance- Can bear with Amit and Vaibhav’s humor<br> 
+	•	Good Long Lasting Batteries that suit well at night outs <br>
+	•	Stays in Pune <br>
+
+Cons:<br>
+	•	Sometimes plans to move to Mumbai<br>
+<br>	
+<br>
+Final Verdict:<br>
+Vidhi is an elite-tier human. Highly recommend adding to your life for spontaneous adventures, late-night coffees and croissants , and International travel. Use responsibly—they’re a rare one.</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="Tanya.jpeg" alt="Reviewer 16">
+            <div class="review-content">
+                <h3>Tanya</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>She's sooo amazing and fun 💖💖 I love how she laughs on everything and how expressive she is. Really appreciate that. I think we can be best friends 🤭 love her so much 😭</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="tushar.jpeg" alt="Reviewer 17">
+            <div class="review-content">
+                <h3>Tush</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>I was looking for a -5 option.<br>
+Vidhi sucks 👎</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="vikram.jpeg" alt="Reviewer 19">
+            <div class="review-content">
+                <h3>VJ</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Someone who got - Baal Vivaah turned Boss Lady & now calls all the freshers in the team as Bacche…Already feeling the grandma energy setting in! 😝<br>
+Strong-headed who is always clear with what she wants to achieve!<br>
+A travel junkie (though I’m pretty sure it’s Vaibhav who makes all the efforts🤝). I’m pretty sure she is having a secret party animal hiding beneath.<br>
+Perfectly coordinated outfits which, by the way, make Darshu lowkey jealous every single time🤪<br>
+She’s the kind of company you actually want around - sassy, intelligent & fun. 🍻</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="yash.jpeg" alt="Reviewer 20">
+            <div class="review-content">
+                <h3>Yash Somani</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Overall a good product but a little loud on the high end. Base seems to be lacking a bit. Apart from that, a good recommend. </p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

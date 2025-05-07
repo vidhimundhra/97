@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Her</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: #fff0f5;
+            color: #4d0039;
+        }
+
+        nav {
+            background-color: #ffcce0;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #4d0039;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: #ffe3ec;
+            padding: 30px;
+            border-radius: 30px;
+            box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            flex-wrap: wrap;
+            align-items: center;
+            background-image: radial-gradient(#f8cddc 1px, transparent 1px);
+            background-size: 20px 20px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .cover-photo {
+            grid-column: 1 / -1;
+            height: 260px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .cover-photo img,
+        .bottom-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .cover-photo:hover,
+        .bottom-photo:hover {
+            transform: scale(1.03);
+        }
+
+        .left-column {
+            padding-right: 20px;
+            border-right: 1px solid #eee;
+            text-align: center;
+        }
+
+        .right-column {
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .name {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            color: #99004d;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .intro {
+            color: #4d0039;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .about-text {
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .skills-section {
+            background-color: #ff99cc;
+            padding: 20px;
+            border-radius: 20px;
+            margin-top: 30px;
+            width: 100%;
+            max-width: 300px;
+            font-family: 'Verdana', sans-serif;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            animation: fadeIn 2s ease;
+        }
+
+        .skills-title {
+            font-weight: bold;
+            color: white;
+            margin-bottom: 10px;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding-left: 0;
+            color: white;
+        }
+
+        .skills-list li::before {
+            content: '❤';
+            color: white;
+            margin-right: 8px;
+        }
+
+        .skills-list li {
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+
+        .bottom-photo {
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            width: 100%;
+            max-width: 300px;
+            overflow: hidden;
+            margin-top: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                padding: 20px;
+                margin-top: -30px;
+            }
+
+            .left-column, .right-column {
+                padding: 0;
+                border-right: none;
+            }
+
+            .cover-photo {
+                margin-bottom: 15px;
+                height: 200px;
+            }
+
+            .bottom-photo {
+                margin-top: 15px;
+                height: 120px;
+                max-width: 100%;
+            }
+
+            .name {
+                font-size: 2.7em;
+                text-align: center;
+            }
+
+            .skills-section {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Vidhi</a></li>
+            <li><a href="story.html">Her Story</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="review.html">Ratings & Reviews</a></li>
+            <li><a href="hi.html">Say Hi</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="cover-photo">
+            <img src="VidhiCover.jpeg" alt="Vidhi Cover">
+        </div>
+
+        <div class="left-column">
+            <div class="name">Vidhi Mundhra</div>
+            <div class="intro">Not just a sister — she's part mom, part best friend, and full-time drama queen</div>
+            <div class="about-text">
+                <i>Vidhi is the elder sister of the coolest girl in the world. She's a loving daughter and undoubtedly mom's favourite — also the only daughter in the household with a brain.</i>
+                <br><br>
+                <i>On 15th July 2021, she made Vaibhav Laddha the luckiest man alive by agreeing to marry him and blessing his life with her presence forever.</i>
+                <br><br>
+                <i>She's been an overachiever since May 9th, 1997. From topping classes to becoming an Actuary, she's always been that girl.</i>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="skills-section">
+                <div class="skills-title">SKILLS:</div>
+                <ul class="skills-list">
+                    <li>Can win any argument (even the ones where she's clearly wrong)</li>
+                    <li>Knows the lyrics to every Bollywood song ever made</li>
+                    <li>Can do nakhre about literally anything</li>
+                    <li>High-pitched but deeply loveable</li>
+                    <li>Loves getting pampered and pampering others</li>
+                    <li>Is somehow everyone's favourite</li>
+                </ul>
+            </div>
+            <div class="bottom-photo">
+                <img src="VidhiBottom.jpeg" alt="Vidhi Smiling">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Say Hi to Vidhi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff0f5;
+      background-image: radial-gradient(circle at 1px 1px, #ffd1dc 1px, transparent 0),
+                        radial-gradient(circle at 8px 8px, #ffb6c1 1px, transparent 0);
+      background-size: 16px 16px;
+      color: #4d0039;
+    }
+    nav {
+      background-color: #ffcce0;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #4d0039;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .container {
+      text-align: center;
+      padding: 80px 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .container h1 {
+      font-size: 2.0rem;
+      margin-bottom: 10px;
+    }
+    .container p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      font-style: italic;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    textarea {
+      padding: 15px;
+      font-size: 1rem;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      resize: vertical;
+      min-height: 100px;
+    }
+    input[type="email"] {
+      padding: 12px;
+      font-size: 1rem;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+    input[type="text"] {
+      padding: 12px;
+      font-size: 1rem;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #ff69b4;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff85c1;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Vidhi</a></li>
+      <li><a href="story.html">Her Story</a></li>
+      <li><a href="gallery.html">Photo Gallery</a></li>
+      <li><a href="review.html">Ratings & Reviews</a></li>
+      <li><a href="hi.html">Say Hi</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>You’ve reached the end</h1>
+    <p>Now leave Vidhi a sweet wish below! Don’t overthink it 😄</p>
+
+    <form action="https://formspree.io/f/mjkwwrlb" method="POST">
+      <input type="text" name="name" placeholder="Your name" required>
+      <textarea name="message" placeholder="Your message for Vidhi..." required></textarea>
+      <input type="email" name="email" placeholder="Your email (optional)">
+      <button type="submit">Send Wish 🎉</button>
+    </form>
+  </div>
+
+</body>
+</html>

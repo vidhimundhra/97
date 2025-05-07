@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff0f5;
+            color: #4d0039;
+        }
+
+        nav {
+            background-color: #ffcce0;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+            flex-wrap: wrap;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #4d0039;
+            font-weight: 600;
+        }
+
+        .section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .photo-box {
+            background-color: #ffe6f0;
+            padding: 15px 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+        }
+
+        .photo-title {
+            font-size: 24px;
+            color: #99004d;
+            margin-bottom: 10px;
+            text-align: center;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .arrow {
+            transition: transform 0.3s ease;
+        }
+
+        .arrow.rotate {
+            transform: rotate(90deg);
+        }
+
+        .photo-content {
+            display: none;
+        }
+
+        .photo-row {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 5px;
+            justify-content: center;
+        }
+
+        .photo-row.two img {
+            width: calc((100% - 5px) / 2);
+        }
+
+        .photo-row.three img {
+            width: calc((100% - 10px) / 3);
+        }
+
+        .photo-row.four img {
+            width: calc((100% - 15px) / 4);
+        }
+
+        .photo-row img {
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .photo-row.two img,
+            .photo-row.three img {
+                width: calc((100% - 5px) / 2);
+            }
+
+            .photo-row.four img {
+                width: calc((100% - 10px) / 3);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .photo-row {
+                flex-direction: column;
+            }
+
+            .photo-row img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Vidhi</a></li>
+        <li><a href="story.html">Her Story</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="review.html">Ratings & Reviews</a></li>
+        <li><a href="hi.html">Say Hi</a></li>
+    </ul>
+</nav>
+
+<div class="section">
+    <!-- Bachpan -->
+    <div class="photo-box">
+        <div class="photo-title" onclick="toggleSection(this)">
+            <span>Bachpan</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="photo-content">
+            <div class="photo-row three">
+                <img src="bachpan1.jpeg">
+                <img src="bachpan2.jpeg">
+                <img src="bachpan3.jpeg">
+            </div>
+            <div class="photo-row two">
+                <img src="bachpan4.jpeg">
+                <img src="bachpan5.jpeg">
+            </div>
+            <div class="photo-row three">
+                <img src="bachpan6.jpeg">
+                <img src="bachpan7.jpeg">
+                <img src="bachpan8.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <!-- Ugly Phase -->
+    <div class="photo-box">
+        <div class="photo-title" onclick="toggleSection(this)">
+            <span>Ugly Phase</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="photo-content">
+            <div class="photo-row two">
+                <img src="ugly1.jpeg">
+                <img src="ugly2.jpeg">
+            </div>
+            <div class="photo-row three">
+                <img src="ugly3.jpeg">
+                <img src="ugly4.jpeg">
+                <img src="ugly5.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <!-- Vidhi Now -->
+    <div class="photo-box">
+        <div class="photo-title" onclick="toggleSection(this)">
+            <span>Vidhi Now</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="photo-content">
+            <div class="photo-row three">
+                <img src="now1.jpeg">
+                <img src="now2.jpeg">
+                <img src="now3.jpeg">
+            </div>
+            <div class="photo-row two">
+                <img src="now4.jpeg">
+                <img src="now5.jpeg">
+            </div>
+            <div class="photo-row three">
+                <img src="now6.jpeg">
+                <img src="now7.jpeg">
+                <img src="now8.jpeg">
+            </div>
+            <div class="photo-row two">
+                <img src="now9.jpeg">
+                <img src="now10.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <!-- Vidhi with the cutest -->
+    <div class="photo-box">
+        <div class="photo-title" onclick="toggleSection(this)">
+            <span>Vidhi with the cutest</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="photo-content">
+            <div class="photo-row three">
+                <img src="cutest1.jpeg">
+                <img src="cutest2.jpeg">
+                <img src="cutest3.jpeg">
+            </div>
+            <div class="photo-row two">
+                <img src="cutest4.jpeg">
+                <img src="cutest5.jpeg">
+            </div>
+            <div class="photo-row two">
+                <img src="cutest6.jpeg">
+                <img src="cutest7.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <!-- Vidhi with Family -->
+    <div class="photo-box">
+        <div class="photo-title" onclick="toggleSection(this)">
+            <span>Vidhi with Family</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="photo-content">
+            <div class="photo-row four">
+                <img src="family1.jpeg">
+                <img src="family2.jpeg">
+                <img src="family3.jpeg">
+                <img src="family4.jpeg">
+            </div>
+            <div class="photo-row two">
+                <img src="family5.jpeg">
+                <img src="family6.jpeg">
+            </div>
+            <div class="photo-row three">
+                <img src="family7.jpeg">
+                <img src="family8.jpeg">
+                <img src="family9.jpeg">
+            </div>
+            <div class="photo-row two">
+                <img src="family10.jpeg">
+                <img src="family11.jpeg">
+            </div>
+            <div class="photo-row three">
+                <img src="family12.jpeg">
+                <img src="family13.jpeg">
+                <img src="family14.jpeg">
+            </div>
+            <div class="photo-row four">
+                <img src="family15.jpeg">
+                <img src="family16.jpeg">
+                <img src="family17.jpeg">
+                <img src="family18.jpeg">
+            </div>
+            <div class="photo-row two">
+                <img src="family19.jpeg">
+                <img src="family20.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <!-- Vidhi with Friends -->
+    <div class="photo-box">
+        <div class="photo-title" onclick="toggleSection(this)">
+            <span>Vidhi with Friends</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="photo-content">
+            <div class="photo-row three">
+                <img src="friends1.jpeg">
+                <img src="friends2.jpeg">
+                <img src="friends3.jpeg">
+            </div>
+            <div class="photo-row two">
+                <img src="friends4.jpeg">
+                <img src="friends5.jpeg">
+            </div>
+            <div class="photo-row three">
+                <img src="friends6.jpeg">
+                <img src="friends7.jpeg">
+                <img src="friends8.jpeg">
+            </div>
+            <div class="photo-row two">
+                <img src="friends9.jpeg">
+                <img src="friends10.jpeg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleSection(title) {
+        const content = title.nextElementSibling;
+        const arrow = title.querySelector('.arrow');
+        if (content.style.display === 'block') {
+            content.style.display = 'none';
+            arrow.classList.remove('rotate');
+        } else {
+            content.style.display = 'block';
+            arrow.classList.add('rotate');
+        }
+    }
+</script>
+</body>
+</html>
